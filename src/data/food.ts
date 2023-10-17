@@ -1,7 +1,6 @@
 import Miso from "../assets/images/food/Miso.svg";
 import Meat from "../assets/images/food/Brochette viande.svg";
 import Maki from "../assets/images/food/Maki.svg";
-import Sushi from "../assets/images/food/Sushi.svg";
 import California from "../assets/images/food/California.svg";
 import BeefCheese from "../assets/images/food/Brochette boeuf fro.svg";
 
@@ -13,11 +12,6 @@ export interface FoodItem {
 
 // values from: http://dieteplaisir.canalblog.com/archives/2012/05/18/24268064.html
 export const FOOD_ITEMS: Array<FoodItem> = [
-  {
-    name: "Sushi",
-    kcal: 45,
-    imageUrl: Sushi
-  },
   {
     name: "Maki",
     kcal: 20,
